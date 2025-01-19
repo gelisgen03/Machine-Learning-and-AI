@@ -45,7 +45,7 @@ data=pd.read_csv('Kitap1.csv')
 
 
 ### 2. Veri Analizi
-*Bu aşamada, verinin yapısı incelenmiş ve özelliklerin istatistiksel özeti elde edilmiştir. Hangi özelliklerin hedef değişkeni (vote_average) tahmin etmekte faydalı olabileceği belirlenmiş ve gereksiz özellikler dataset'ten kaldırılmıştır.
+* Bu aşamada, verinin yapısı incelenmiş ve özelliklerin istatistiksel özeti elde edilmiştir. Hangi özelliklerin hedef değişkeni (vote_average) tahmin etmekte faydalı olabileceği belirlenmiş ve gereksiz özellikler dataset'ten kaldırılmıştır.
 
 Dataset Analizi:
 ```python
@@ -54,10 +54,15 @@ data.dtypes
 data.info()
 data.isnull().sum()
 ```
+
 Tespit Edilen Gereksiz Özelliklerin Kaldırılması:
 ```python
 data=data.drop(['id','title','keywords','status','original_title','overview','tagline','spoken_languages','imdb_id'],axis=1)
 ```
+![datahead](https://github.com/user-attachments/assets/acd5cd80-3196-4164-905b-e106394e6098)
+![datainfo](https://github.com/user-attachments/assets/57296f8e-42fe-46ed-8c06-18b99ce83291)
+![dataisnull](https://github.com/user-attachments/assets/c5341ad4-3ced-4c49-8485-a45832838fcb)
+
 
 
 ### 3. Dataset'in Encoding'e Hazırlanması
@@ -256,8 +261,5 @@ Kurulum:
 pip install -r requirements.txt
 ```
 
-## Katkıda Bulunma
-Bu proje geliştirilmeye açıktır. Katkıda bulunmak için lütfen bir pull request oluşturun.
-
-## Lisans
-MIT Lisansı
+## Sertifikalar
+--> Python Eğitimi: 
