@@ -262,4 +262,5 @@ pip install -r requirements.txt
 ```
 
 ## Sertifikalar
---> Python Eğitimi: 
+--> Python Eğitimi: [Python_ile_Makine_Öğrenmesi_Sertifika.pdf](https://github.com/user-attachments/files/18470156/Python_ile_Makine_Ogrenmesi_Sertifika.pdf)
+
